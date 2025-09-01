@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profiled</title>
+    <style>
+      * {
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        width: 100%;
+        padding: 20px;
+        gap: 25px;
+        border-radius: 12px;
+        margin: auto 0;
+        border-radius: 12px;
+      }
+
+      .picture {
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        margin: auto 0;
+      }
+
+      .about {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        border: 1px solid black;
+        width: 75%;
+        margin: auto 0;
+        padding: 20px;
+        gap: 20px;
+        justify-content: center;
+        justify-self: center;
+        border-radius: 12px;
+      }
+
+      .bio {
+        width: 87%;
+        height: 90%;
+        justify-self: center;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 12px;
+        margin-left: 89px;
+      }
+
+      .mainpic {
+        text-align: center;
+        justify-self: center;
+        height: 205px;
+        margin-top: 50px;
+        border-radius: 12px;
+        margin-left: 30px;
+      }
+
+      .secondsection {
+        display: grid;
+
+        grid-template-columns: 50% 62.5%;
+        width: 75%;
+        justify-self: center;
+        margin: auto 0;
+        border-radius: 12px;
+      }
+
+      .hobbies {
+        display: grid;
+        border: 1px solid black;
+        grid-template-columns: 50% 50%;
+        width: 95%;
+        text-align: start;
+        border-radius: 12px;
+        padding: 10px;
+        padding-right: 30px;
+        line-height: 20px;
+      }
+
+      .goals {
+        display: grid;
+        border: 1px solid black;
+        grid-template-columns: 45% 50%;
+        width: 80%;
+        text-align: start;
+        border-radius: 12px;
+        padding: 10px;
+        line-height: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="about">
+        <div class="mainpic">
+          <img
+            class="picture"
+            src="./assets/joseph_pic.jpg"
+            alt="Profile-Picture"
+          />
+        </div>
+
+        <div class="bio">
+          <h1>Hi, My name is Tuta Joseph</h1>
+          <p>
+            I live in Abuja F.C.T. Nigeria and I'm 21yrs of age and just
+            graduated from University. I'm also a student at AltSchool studying
+            Front-end Engineering. I want to learn how to build apps using my
+            keyboard.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            mollitia aperiam dolor. Quae earum expedita itaque illum obcaecati
+            sequi aperiam molestiae nulla deserunt explicabo eveniet, facilis
+            hic eos vel odit?
+          </p>
+        </div>
+      </section>
+
+      <section class="secondsection">
+        <div class="hobbies">
+          <h3>Hobbies:</h3>
+          <ul>
+            <li>Reading Novels</li>
+            <li>Playing Videogames</li>
+            <li>Cooking</li>
+            <li>Baking</li>
+            <li>Coding</li>
+            <li>Dancing</li>
+          </ul>
+        </div>
+        <div class="goals">
+          <h3>Aspirations:</h3>
+          <ul>
+            <li>Become a Dev-ops Programmer.</li>
+            <li>Become a professional Front-end Engineer.</li>
+            <li>Perfect my Cooking skills.</li>
+            <li>Take a course in Forex trading.</li>
+            <li>Further my education.</li>
+            <li>Get a Masters scholarship.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
